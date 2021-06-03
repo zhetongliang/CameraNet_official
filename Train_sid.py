@@ -117,7 +117,7 @@ if is_training is True:
     train_restore_loss = train_restore_loss_lin + train_restore_loss_log
     train_enhance_sep_loss = tf.reduce_mean(tf.abs(train_enhan_sep-train_label))
     train_enhance_loss = tf.reduce_mean(tf.abs(train_enhan-train_label))
-    train_joint_loss = train_enhance_loss+train_restore_loss
+    train_joint_loss = train_enhance_loss*0.1+train_restore_loss*0.9
 
     ##### Metric ######
     psnr_recons = tf.image.psnr(test_recons_c,test_middle_lin,max_val=1.0)
