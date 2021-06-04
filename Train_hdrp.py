@@ -22,7 +22,7 @@ train_input_filelist = base+'/Train/inputlist.txt'
 train_middle_filelist = base+'/Train/middlelist.txt'
 train_output_filelist = base+'/Train/outputlist.txt'
 train_input_path = base+'/Train/input'
-train_middle_path = base+'/Train/denoised_xyz_png_full_denoised'
+train_middle_path = base+'/Train/middle'
 train_output_path = base+'/Train/output'
 
 test_input_filelist = base+'/Test/inputlist.txt'
