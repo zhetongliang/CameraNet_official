@@ -14,6 +14,7 @@ CameraNet: A Two-Stage Framework for Effective Camera ISP Learning
 
 
 ## Usage
+Currently the code is ugly. We will try to simplify the code or add comments in the future for better reading. 
 ### For HDR+ ISP
 1. Make a dataset directory in the root folder by `mkdir Data`.
 2. Download the HDR+ datasets (already including training and testing sets). Unzip it to `Data` folder. Now you should have a folder named `./Data/HDRp`
